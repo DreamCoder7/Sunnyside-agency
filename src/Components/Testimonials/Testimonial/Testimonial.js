@@ -9,7 +9,7 @@ import classes from "./Testimonial.module.css";
 const testimonial = (props) => (
   <div className={classes.TestimonialCont}>
     <div className={classes.Testimonial}>
-      <TestimonialImg img={userImg1} alt="User 1" />
+      <TestimonialImg img={userImg1} text="User 1" />
       <TestimonialContent>
         <p className={classes.TestimonialParagraph}>
           We put our trust in Sunnyside and they delivered, making sure our
@@ -22,7 +22,7 @@ const testimonial = (props) => (
       </TestimonialContent>
     </div>
     <div className={classes.Testimonial}>
-      <TestimonialImg img={userImg3} alt="User 2" />
+      <TestimonialImg img={userImg3} text="User 2" />
       <TestimonialContent>
         <p className={classes.TestimonialParagraph}>
           Sunnyside's enthusiasm coupled with their keen interest in our brand's
@@ -35,7 +35,7 @@ const testimonial = (props) => (
       </TestimonialContent>
     </div>
     <div className={classes.Testimonial}>
-      <TestimonialImg img={userImg2} alt="User 3" />
+      <TestimonialImg img={userImg2} text="User 3" />
       <TestimonialContent>
         <p className={classes.TestimonialParagraph}>
           Incredible end result! Our sales increased over 400% when we worked

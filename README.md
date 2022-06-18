@@ -56,5 +56,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@redstorm-hub](https://www.frontendmentor.io/profile/redstorm-hub)
+- Twitter - [@AbrehamNigussi3](https://twitter.com/AbrehamNigussi3?t=4SLckC1gXkx9nfhMNiXBmA&s=09)
