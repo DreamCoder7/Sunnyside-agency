@@ -1,0 +1,52 @@
+.TestimonialCont {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.Testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.TestimonialParagraph {
+  margin: 0;
+  padding: 0;
+  color: hsl(213, 9%, 39%);
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Barlow", "sans-serif";
+}
+
+.TestimonialHeading {
+  font-family: "Fraunces", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: hsl(212, 27%, 19%);
+  text-align: center;
+}
+
+.TestimonialUser {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.TestimonialUserInfo {
+  margin: 0;
+  padding: 0;
+  color: hsl(210, 4%, 67%);
+  font-size: 12px;
+
+  font-family: "Barlow", "sans-serif";
+}
+
+@media (min-width: 700px) {
+
+  .TestimonialCont {
+    flex-direction: row;
+  }
+}

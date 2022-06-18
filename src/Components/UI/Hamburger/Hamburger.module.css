@@ -1,0 +1,10 @@
+.Hamburger {
+  all: unset;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .Hamburger {
+    display: none;
+  }
+}

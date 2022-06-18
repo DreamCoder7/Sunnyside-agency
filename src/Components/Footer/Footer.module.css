@@ -1,0 +1,33 @@
+.Footer {
+  background-color: hsl(168, 34%, 65%);
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.FooterLinks {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.FooterLinks a:link,
+.FooterLinks a:visited {
+  color: hsl(168, 34%, 41%);
+  transition: all 0.4s;
+}
+
+.FooterLinks a:hover,
+.FooterLinks a:active {
+  color: #fff;
+}
+
+.FooterLogo {
+  display: flex;
+  justify-content: center;
+}

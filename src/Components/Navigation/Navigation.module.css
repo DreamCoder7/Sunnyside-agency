@@ -1,0 +1,36 @@
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+}
+
+@media (min-width: 700px) {
+  .Navigation {
+    padding: 20px 30px;
+  }
+
+  .Navigation ul li:last-child {
+    background-color: #fff;
+    padding: 12px 25px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+
+  .Navigation ul li:last-child a:link,
+  .Navigation ul li:last-child a:visited {
+    font-family: "Fraunces", sans-serif;
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    transition: all 0.4s;
+  }
+
+  .Navigation ul li:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .Navigation ul li:last-child:hover a {
+    color: #fff;
+  }
+}

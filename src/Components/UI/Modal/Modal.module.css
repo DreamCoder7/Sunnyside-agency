@@ -1,0 +1,35 @@
+.Modal {
+  position: fixed;
+  top: 8%;
+  left: 12%;
+  width: 82%;
+  height: 50%;
+  background-color: hsl(0, 0%, 100%);
+  clip-path: polygon(92% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
+  margin: 0 auto;
+  z-index: 999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Modal ul li:last-child {
+  background-color: hsl(51, 100%, 49%);
+  padding: 15px 25px;
+  border-radius: 100px;
+}
+
+.Modal ul li:last-child a:link,
+.Modal ul li:last-child a:visited {
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", sans-serif;
+  text-transform: uppercase;
+}

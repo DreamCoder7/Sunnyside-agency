@@ -1,0 +1,15 @@
+.Testimonials {
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.TestimonialsHeading {
+  font-family: "Fraunces", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: hsl(210, 4%, 67%);
+}

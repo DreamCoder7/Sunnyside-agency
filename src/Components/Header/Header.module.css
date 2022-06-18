@@ -1,0 +1,75 @@
+.Header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 80vh;
+
+  background-image: url("../../assets/Images/mobile/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.HeaderContent {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PrimaryHeading {
+  font-family: "Fraunces", sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.HeaderIcon {
+  width: 30px;
+  height: 100px;
+}
+
+@media (min-width: 500px) {
+  .HeaderContent {
+    top: 38%;
+  }
+
+  .Header {
+    background-image: url("../../assets/Images/desktop/image-header.jpg");
+    height: 90vh;
+  }
+}
+
+@media (min-width: 700px) {
+  .HeaderContent {
+    top: 40%;
+  }
+
+  .HeaderIcon {
+    width: 25px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .PrimaryHeading {
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 8px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Header {
+    height: 100vh;
+  }
+
+  .HeaderContent {
+    gap: 40px;
+  }
+}

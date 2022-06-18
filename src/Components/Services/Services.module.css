@@ -1,0 +1,42 @@
+.Service {
+  display: flex;
+  flex-direction: column;
+}
+
+.ServiceHeading {
+  font-family: "Fraunces", sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.ServiceParagraph {
+  font-family: "Barlow", "sans-serif";
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 15px;
+  padding-bottom: 30px;
+}
+
+.ServiceImg1 {
+  background-image: url("../../assets/Images/mobile/image-graphic-design.jpg");
+}
+
+.ServiceImg2 {
+  background-image: url("../../assets/Images/mobile/image-photography.jpg");
+}
+@media (min-width: 700px) {
+  .Service {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+  }
+
+  .ServiceImg1 {
+    background-image: url("../../assets/Images/desktop/image-graphic-design.jpg");
+  }
+
+  .ServiceImg2 {
+    background-image: url("../../assets/Images/desktop/image-photography.jpg");
+  }
+}
